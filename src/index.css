@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Ubuntu:wght@300&display=swap');
+
+
+.root{
+  --text-font : "'Ubuntu', sans-serif";
+  --heading-font: "'Hammersmith One', sans-serif"
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: var(--heading-font);
+}
+
+.container{
+  background-color: #389f4d;
+
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button{
+  background-color: #389f4d !important;
+  border: none !important;
+}
+
+.link{
+  color: white;
+  text-decoration: none;
+}
